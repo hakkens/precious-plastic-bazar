@@ -1,8 +1,12 @@
-document.addEventListener('DOMContentLoaded', function(){ 
-  var toggleHeader = document.querySelector(".home-toolbar .toggle-header");
-  var text = toggleHeader.textContent.trim()
-  if (text === "All listing types") {
-  toggleHeader.textContent = "Buy & request";
+document.addEventListener('DOMContentLoaded', function() {
+  var toggler = document.querySelector('.home-toolbar .toggle-header')
+  var content = toggler.textContent.trim()
+
+  if (content === 'All listing types') {
+    toggler.textContent = 'Buy & request'
   }
-  console.log(toggleHeader.textContent)
+  
+  
+  var sellbutton = document.querySelector('[data-id="79164"] .link-text')
+    sellbutton.textContent = 'Sell'
 })
