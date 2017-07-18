@@ -7,6 +7,5 @@ document.addEventListener('DOMContentLoaded', function() {
   }
   
   
-  var sellbutton = document.querySelector('[name=listing_shape] .link-text')
-    sellbutton.textContent = 'Sell'
+  
 })
