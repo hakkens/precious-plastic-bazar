@@ -7,6 +7,6 @@ document.addEventListener('DOMContentLoaded', function() {
   }
   
   
-  var sellbutton = document.querySelector('[data-id="79164"] .link-text')
+  var sellbutton = document.querySelector('a[data-id="79164"] .link-text')
     sellbutton.textContent = 'Sell'
 })
