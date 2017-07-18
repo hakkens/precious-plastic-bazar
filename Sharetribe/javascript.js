@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function(){ 
   
-let toggleHeader = document.querySelector(".toggle-header");toggleHeader.firstChild.nodeValue = "Buy & request"; 
+var toggleHeader = document.querySelector(".toggle-header");toggleHeader.textContent = "Buy & request"; 
 
 })
 
