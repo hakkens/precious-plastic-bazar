@@ -44,7 +44,7 @@
 }
 
 b, strong {
-    color: #f69495;
+    color: #f69495!important;
 }
 
 .text-area {
