@@ -1,13 +1,19 @@
+document.addEventListener('DOMContentLoaded', function() {
+  var toggler = document.querySelector('.home-toolbar .toggle-header')
+  var content = toggler.textContent.trim()
 
-$(".col-12 ul").text(function () {
-    return $(this).text().replace("Pickup", "Domestic or pickup ");
-});
+  if (content === 'All listing types') {
+    toggler.textContent = 'Buy & request'
+  }
+ 
+  
 
-$(".delivery-title").text(function () {
-    return $(this).text().replace("Delivery method", "Shipping method ");
-});
+   
+  var internationalShipping = document.querySelector('label[for="delivery_shipping"]')
+    internationalShipping.textContent = 'International Shipping (+€3,95)'
+  
+  var domesticShipping = document.querySelector('label[for="delivery_pickup"]')
+    domesticShipping.textContent = 'Domestic shipping (default)'
 
-
-$(".col-12 ul").text(function () {
-    return $(this).text().replace("Shipping", "International");
-});
+  
+})
