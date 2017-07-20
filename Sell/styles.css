@@ -43,6 +43,10 @@
   background-size: 180px;
 }
 
+b, strong {
+    color: #f69495;
+}
+
 .text-area {
   display: block;
   margin-top: 50px;
