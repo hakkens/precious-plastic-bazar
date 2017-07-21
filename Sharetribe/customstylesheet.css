@@ -89,6 +89,10 @@ a.home-categories-sub {
     display: none;
 }
 
+.MenuItem__menuitem__3_-l_:first-child {
+    display: none;
+}
+
 /* Style Subcategories */
 a.home-categories-sub {
     background-color: #fff!important;
