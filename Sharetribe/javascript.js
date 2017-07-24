@@ -6,14 +6,18 @@ document.addEventListener('DOMContentLoaded', function() {
     toggler.textContent = 'Buy & request'
   }
  
+  var internationalShipping = false
+  var domesticShipping = false
   
-
-   
-  var internationalShipping = document.querySelector('label[for="delivery_shipping"]')
-    internationalShipping.textContent = 'International Shipping (+€3,95)'
+  while (!internationalShipping) {
+    internationalShipping = document.querySelector('label[for="delivery_shipping"]')
+  }
   
-  var domesticShipping = document.querySelector('label[for="delivery_pickup"]')
-    domesticShipping.textContent = 'Domestic shipping (default)'
-
+  internationalShipping.textContent = 'International Shipping (+€3,95)'
   
+  while(!domesticShipping) {
+    domesticShipping = document.querySelector('label[for="delivery_pickup"]')
+  }
+  
+  domesticShipping.textContent = 'Domestic shipping (default)'
 })
