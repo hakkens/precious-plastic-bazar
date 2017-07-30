@@ -8,19 +8,3 @@ document.addEventListener('DOMContentLoaded', function() {
       toggler.textContent = 'Buy & request'
     }
   }
-
-
-
-  function addRow() {
-      var div = document.createElement('div');
-
-      div.className = 'notification';
-
-      div.innerHTML = '<div id="notification">The website isnt online yet, test version. Online soon </div> ';
-
-       document.getElementById('content').appendChild(div);
-  }
-
-  function removeRow(input) {
-      document.getElementById('content').removeChild( input.parentNode );
-  }
