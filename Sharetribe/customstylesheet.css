@@ -93,9 +93,10 @@ a.home-categories-sub {
     display: none;
 }
 
-/* .MenuItem__menuitem__3_-l_:nth-child(5) {
+/* Hide "sell you item" */
+.MenuItem__menuitem__3_-l_:nth-child(5) {
     display: none;
-} */
+}
 
 /* .MenuItem__menuitem__3_-l_:first-child {
     display: none;
