@@ -85,14 +85,14 @@ a.home-categories-sub {
   display: none;
 }
  */
-/* .MenuItem__menuitem__3_-l_:last-child {
-    display: none;
-} */
-
-.MenuItem__menuitem__3_-l_:nth-child(4) {
+.MenuItem__menuitem__3_-l_:last-child {
     display: none;
 }
 
+/* .MenuItem__menuitem__3_-l_:nth-child(4) {
+    display: none;
+}
+ */
 .MenuItem__menuitem__3_-l_:nth-child(5) {
     display: none;
 }
