@@ -81,10 +81,10 @@ a.home-categories-sub {
 }
 
 /* Hide all listing types */
-.home-toolbar-share-type-menu a:nth-child(1), .toggle-menu a:nth-child(1) {
+/* .home-toolbar-share-type-menu a:nth-child(1), .toggle-menu a:nth-child(1) {
   display: none;
 }
-
+ */
 /* .MenuItem__menuitem__3_-l_:last-child {
     display: none;
 } */
@@ -93,9 +93,9 @@ a.home-categories-sub {
     display: none;
 }
 
-.MenuItem__menuitem__3_-l_:first-child {
+/* .MenuItem__menuitem__3_-l_:first-child {
     display: none;
-}
+} */
 
 /* Style Subcategories */
 a.home-categories-sub {
