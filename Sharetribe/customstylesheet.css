@@ -143,6 +143,13 @@ a.home-categories-sub:hover {
     font-size: 2.5em;
 }
 
+/* Reduce round corner from button */
+.AddNewListingButton__backgroundContainer__4Nn3Z {
+    border-radius: 3px;
+}
+
+
+
 @media only screen and (max-width: 1440px) {
   /* Reduce main wrapper width */
 .wrapper {
