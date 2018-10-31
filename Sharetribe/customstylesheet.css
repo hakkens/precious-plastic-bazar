@@ -117,11 +117,12 @@ a.home-categories-sub:hover {
 
 /* Main wrapper larger width */
 .wrapper {
-    background: white;
-    margin: 0 auto;
-    max-width: 85em;
-    padding-left: 0.75em;
-    padding-right: 0.75em;
+    max-width: 95em;
+}
+
+/* Remove coverimage on items */
+.coverimage {
+    opacity: 0;
 }
 
 /
