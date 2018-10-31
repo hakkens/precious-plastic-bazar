@@ -129,4 +129,11 @@ a.home-categories-sub:hover {
 .listing-fb-like-button, .listing-tweet-button {
     display: none;
 }
+
+/* Center title item */
+.marketplace-lander .title-header-wrapper {
+    padding-left: 0;
+    padding-right: 0;
+    max-width: 95em;
+}
 /
