@@ -147,9 +147,11 @@ a.home-categories-sub:hover {
   /* Reduce main wrapper width */
 .wrapper {
     max-width: 80em;
+    padding-left: 0.5em;
 }
   .marketplace-lander .title-header-wrapper {
     max-width: 80em;
+    padding-left: 0.5em;
 }
 }
 /
