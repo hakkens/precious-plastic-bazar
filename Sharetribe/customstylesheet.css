@@ -118,6 +118,7 @@ a.home-categories-sub:hover {
 /* Main wrapper larger width */
 .wrapper {
     max-width: 95em;
+    padding-left: 0;
 }
 
 /* Remove coverimage on items */
