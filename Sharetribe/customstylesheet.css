@@ -143,7 +143,7 @@ a.home-categories-sub:hover {
     font-size: 2.5em;
 }
 
-@media only screen  and (min-width : 1224px) {
+@media only screen and (max-width: 1440px) {
   /* Reduce main wrapper width */
 .wrapper {
     max-width: 80em;
