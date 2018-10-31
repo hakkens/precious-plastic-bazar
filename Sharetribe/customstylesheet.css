@@ -113,4 +113,15 @@ a.home-categories-sub:hover {
   background-color: #fff!important;
 }
 
+
+
+/* Main wrapper larger width */
+.wrapper {
+    background: white;
+    margin: 0 auto;
+    max-width: 85em;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+}
+
 /
