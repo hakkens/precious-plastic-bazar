@@ -125,4 +125,8 @@ a.home-categories-sub:hover {
     opacity: 0;
 }
 
+/* Remove social icons */
+.listing-fb-like-button, .listing-tweet-button {
+    display: none;
+}
 /
