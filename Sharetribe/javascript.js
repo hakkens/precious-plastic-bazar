@@ -57,8 +57,6 @@ document.addEventListener('DOMContentLoaded', function() {
       toggler.textContent = 'Buy & request'
     }
   }
-})
-
 // Code by Benjamin
 
 if(document.URL === "https://bazar.preciousplastic.com/en/listings/new") {
@@ -72,3 +70,5 @@ if(document.URL === "https://bazar.preciousplastic.com/en/listings/new") {
         `
         parentEl.appendChild(childToInject);
 }
+
+})
