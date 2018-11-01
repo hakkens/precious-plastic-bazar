@@ -148,6 +148,9 @@ a.home-categories-sub:hover {
     border-radius: 5px;
 }
 
+#homepage-filters .marketplace-lander .cover-image {
+  opacity: 1;
+}
 
 
 @media only screen and (max-width: 1440px) {
