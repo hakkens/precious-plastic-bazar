@@ -156,6 +156,10 @@ a.home-categories-sub:hover {
   opacity: 1;
 }
 
+#topbar-container .Topbar a.Topbar__topbarListingButton__2SNl8 {
+  border-radius: 5px;
+}
+
 
 @media only screen and (max-width: 1440px) {
   /* Reduce main wrapper width */
