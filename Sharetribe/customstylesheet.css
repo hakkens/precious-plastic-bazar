@@ -164,6 +164,10 @@ a.home-categories-sub:hover {
   display: none;
 }
 
+.MenuItem__menuitem__3_-l_:nth-child(1) {
+  display: none;
+}
+
 
 @media only screen and (max-width: 1440px) {
   /* Reduce main wrapper width */
