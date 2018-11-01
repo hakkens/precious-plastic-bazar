@@ -57,4 +57,4 @@ document.addEventListener('DOMContentLoaded', function() {
       toggler.textContent = 'Buy & request'
     }
   }
-}
+})
