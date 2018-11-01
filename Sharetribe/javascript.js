@@ -1,7 +1,5 @@
    // Code from Semeano
   
-  <script type="text/javascript">
-
 	jQuery(document).ready(function () {
 
 		// #1
@@ -59,5 +57,4 @@ document.addEventListener('DOMContentLoaded', function() {
       toggler.textContent = 'Buy & request'
     }
   }
-
-</script>
+}
