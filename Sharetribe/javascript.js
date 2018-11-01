@@ -1,17 +1,4 @@
-  // Code from Daniel
-
-document.addEventListener('DOMContentLoaded', function() {
-  var toggler = document.querySelector('.home-toolbar .toggle-header')
-
-  if (toggler) {
-    var content = toggler.textContent.trim()
-
-    if (content === 'All listing types') {
-      toggler.textContent = 'Buy & request'
-    }
-  }
-
-  // Code from Semeano
+   // Code from Semeano
   
   <script type="text/javascript">
 
@@ -59,5 +46,18 @@ document.addEventListener('DOMContentLoaded', function() {
 		$('#home_toolbar-select-share-type').find('div.toggle-header').html('Buy & Request');
 
 	});
+
+ // Code from Daniel
+
+document.addEventListener('DOMContentLoaded', function() {
+  var toggler = document.querySelector('.home-toolbar .toggle-header')
+
+  if (toggler) {
+    var content = toggler.textContent.trim()
+
+    if (content === 'All listing types') {
+      toggler.textContent = 'Buy & request'
+    }
+  }
 
 </script>
