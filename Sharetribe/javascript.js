@@ -59,16 +59,21 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 // Code by Benjamin
 
-if(document.URL === "https://bazar.preciousplastic.com/en/listings/new") {
-	// inject guide link after clic on "sell new item" button
-        var parentEl = document.getElementById("new_listing_form")
-        var childToInject = document.createElement('p')
-        childToInject.classList.add('sell-guidelines-link')
-        childToInject.style.textAlign = "center";
-        childToInject.innerHTML += `
-            Check out our <a href="https://hakkens.github.io/precious-plastic-bazar/Sell/" target="_blank">guide</a> for selling on the Bazar.
-        `
-        parentEl.appendChild(childToInject);
-}
+	if(document.URL === "https://bazar.preciousplastic.com/en/listings/new") {
+		// inject guide link after clic on "sell new item" button
+		var parentEl = document.getElementById("new_listing_form")
+		var childToInject = document.createElement('p')
+		childToInject.classList.add('sell-guidelines-link')
+		childToInject.style.textAlign = "center";
+		childToInject.innerHTML += `
+		    Check out our <a href="https://hakkens.github.io/precious-plastic-bazar/Sell/" target="_blank">guide</a> for selling on the Bazar.
+		`
+		parentEl.appendChild(childToInject);
+	}
+// inject Google tag manager
+	var s = document.createElement('noscript');
+	var content = '<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MGWTB8H" height="0" width="0" style="display:none;visibility:hidden"></iframe>';
+	s.innerText = jsCode;
+	document.getElementsByTagName('body')[0].appendChild(s);
 
 })
